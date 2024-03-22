@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tektur', sans-serif;
+    font-weight: 100;
+}
+
+/* MENU PRINCIPAL */
+
+body {
+    background-color: #f5f7fc; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
+
+.menu-logo {
+    max-width: 450px;
+    height: auto;
+    display: block;
+    justify-content: center;
+}
+
+.btn {
+    margin-top: 20px;
+    background: #0047ff;
+    font-size: 3em;
+    color: white;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20px;
+    width: 300px;
+    padding: 12px 0;
+    cursor: pointer;
+    transition: .3s;
+}
+.btn:hover {
+    background: #1100ff;
+}
+
+@media (max-width: 1200px) {
+    .menu-logo {
+        max-width: 900px;
+    }
+    .btn{
+        margin-top: 20px;
+        font-size: 6em;
+        width: 600px;
+        padding: 12px 0;
+    }
+}
+
+/* DIFICULTAD */
+
+.difficulty-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
+
+.btnDificultad {
+    margin-top: 20px;
+    background: #0047ff;
+    font-size: 3em;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 400px;
+    padding: 12px 0;
+    cursor: pointer;
+    transition: .3s;
+}
+.btnDificultad:hover {
+    background: #1100ff;
+}
+.btnVolver {
+    margin-top: 20px;
+    background: #0047ff;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 400px;
+    padding: 12px 0;
+    cursor: pointer;
+    transition: .3s;
+}
+.btnVolver:hover {
+    background: #1100ff;
+}
+
+@media (max-width: 1200px) {
+    .difficulty-menu {
+        max-width: 100%;
+    }
+
+    h1 {
+        transform: scale(250%);
+    }
+
+    .btnDificultad {
+        font-size: 6em;
+        margin-top: 20px;
+        width: 700px;
+        padding: 12px 0;
+    }
+    .btnVolver {
+        font-size: 4em;
+        margin-top: 20px;
+        width: 700px;
+        padding: 12px 0;
+    }
+}
+
+/* NIVELES */
+.palabras-container {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pregunta-image {
+    margin: 0 auto 20px;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    justify-content: center;
+}
+
+
+.txtFacil {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 2.2em;
+    padding: 12px 15px;
+    border-radius: 20px;
+    border: 0px;
+    transition: .3s;
+    width: 450px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.txtFacil:focus {
+    border: 0px;
+    box-shadow: 1px 0 10px #0047ff;
+    outline: none;
+}
+
+.btnVolver2 {
+    display: block;
+    background: #0047ff;
+    font-size: 1.5em;
+    color: white;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20px;
+    width: 450px;
+    padding: 12px 0;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btnEnviar{
+    display: block;
+    background: #0047ff;
+    font-size: 1.5em;
+    color: white;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20px;
+    width: 450px;
+    padding: 12px 0;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btnEnviar, .btnVolver2 {
+    margin-right: 10px;
+    margin-bottom: 10px; /* Ajusta el valor según el espacio que desees entre los botones */
+}
+.btnVolver2:hover, .btnEnviar:hover {
+    background: #1100ff;
+}
+
+#palabras-random {
+    font-size: 4em;
+    color: #0047ff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #0047ff;
+    padding: 10px 30px;
+    transition: .3s;
+}
+
+@media (max-width: 1200px) {
+    #palabras-random {
+        font-size: 8em; 
+    }
+
+    .txtFacil {
+        display: inline-block;
+        margin-right: 10px;
+        font-size: 5em;
+        padding: 12px 15px;
+        border-radius: 20px;
+        border: 0px;
+        transition: .3s;
+        width: 800px;
+        margin-bottom: 20px;
+    }
+    .btnVolver2 {
+        display: inline-block;
+        background: #0047ff;
+        font-size: 6em;
+        color: white;
+        border: none;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 20px;
+        width: 800px;
+        padding: 12px 0;
+        cursor: pointer;
+        transition: .3s;
+    }
+    
+    .btnEnviar{
+        display: inline-block;
+        background: #0047ff;
+        font-size: 6em;
+        color: white;
+        border: none;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 20px;
+        width: 800px;
+        padding: 12px 0;
+        cursor: pointer;
+        transition: .3s;
+    }
+
+    .pregunta-image {
+        max-width: 900px;
+    }
+
+}
+
+/* GANADOR */
+
+.ganador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.ganador-image {
+    max-width: 550px;
+    height: auto;
+    display: block;
+    justify-content: center;
+}
+
+.btnGanador {
+    display: inline-block;
+    background: #0047ff;
+    font-size: 1.5em;
+    color: white;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20px;
+    width: 255px;
+    padding: 12px 0;
+    cursor: pointer;
+    transition: .3s;  
+    margin-bottom: 10px; 
+}
+.btnGanador:hover {
+    background-color: #1100ff;
+}
+
+@media (max-width: 600px) {
+    .ganador-image {
+        max-width: 450px;
+        height: auto;
+        display: block;
+        justify-content: center;
+    }
+    
+    .btnGanador {
+        display: inline-block;
+        background: #0047ff;
+        font-size: 1.5em;
+        color: white;
+        border: none;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 20px;
+        width: 255px;
+        padding: 12px 0;
+        cursor: pointer;
+        transition: .3s;  
+        margin-bottom: 10px; 
+    }
+    .btnGanador:hover {
+        background-color: #1100ff;
+    }
+}
+
+/* AJUSTES */
+
+.ajustes-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
+
+.btnIngles {
+    display: inline-block;
+    width: 200px;
+    height: 133px;
+    background-image: url('/images/english.png');
+    contain: content;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: .3s;
+}
+.btnIngles:hover {
+    width: 205px;
+    height: 138px;
+}
+
+.btnEspañol {
+    display: inline-block;
+    width: 200px;
+    height: 133px;
+    background-image: url('/images/spanish.png');
+    contain: content;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: .3s;
+}
+.btnEspañol:hover {
+    width: 205px;
+    height: 138px;
+}
+
+.btnAjustesVolver {
+    margin-top: 20px;
+    background: #0047ff;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 200px;
+    padding: 12px 0;
+    cursor: pointer;
+    transition: .3s;
+}
+.btnAjustesVolver:hover {
+    background: #1100ff;
+}
+
+@media (max-width: 1200px) {
+    .ajustes-menu {
+        max-width: 100%;
+    }
+
+    h1 {
+        transform: scale(120%);
+    }
+
+    .btnAjustesVolver  {
+        font-size: 2.5em;
+        margin-top: 20px;
+        width: 200px;
+        padding: 12px 0;
+    }
+}
