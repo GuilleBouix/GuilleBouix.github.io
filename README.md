@@ -2,8 +2,6 @@
 ## Descripción
 MindApp es una emocionante aplicación web diseñada para ejercitar y mejorar tu memoria de manera divertida y desafiante. Esta aplicación te brinda la oportunidad de poner a prueba tus habilidades de memorización mediante la visualización de palabras en pantalla durante un período de tiempo determinado.
 
-Juega aquí → https://mindapp.zeabur.app/
-
 [![image.png](https://i.postimg.cc/Vkq2JQ2w/image.png)](https://postimg.cc/SnKgP5y1)
 
 [![image.png](https://i.postimg.cc/J0H2m9j9/image.png)](https://postimg.cc/QKsbJY4b)
@@ -16,4 +14,4 @@ Juega aquí → https://mindapp.zeabur.app/
 
 **JavaScript**: La lógica del juego y la interactividad dinámica están implementadas utilizando JavaScript.
 ## Prueba MindApp
-Puedes probar la aplicación ingresando a [MindApp](https://guillebouix.github.io/).
+Puedes probar la aplicación ingresando a https://mindapp.zeabur.app
