@@ -1,7 +1,7 @@
 [![mindapp.jpg](https://i.postimg.cc/mZdLrMCj/mindapp.jpg)](https://postimg.cc/w3m8f1WR)
 ## Descripción
 MindApp es una emocionante aplicación web diseñada para ejercitar y mejorar tu memoria de manera divertida y desafiante. Esta aplicación te brinda la oportunidad de poner a prueba tus habilidades de memorización mediante la visualización de palabras en pantalla durante un período de tiempo determinado.
-
+Juega aquí → https://mindapp.zeabur.app/
 
 [![image.png](https://i.postimg.cc/Vkq2JQ2w/image.png)](https://postimg.cc/SnKgP5y1)
 
